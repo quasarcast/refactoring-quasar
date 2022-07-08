@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import LeftMenuList from './LeftMenuList.vue'
 
-const leftDrawerOpen = ref(true)
+const leftDrawerOpen = ref(false)
 
 function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value
@@ -32,7 +32,6 @@ function toggleLeftDrawer () {
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
     >
       <q-item>
