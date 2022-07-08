@@ -8,7 +8,10 @@ export default defineComponent({
 
 <template>
   <q-page class="flex flex-center">
-    <h1 class="text-weight-thin">
+    <h1
+      style="font-size: 4em"
+      class="text-weight-thin"
+    >
       Refactoring Quasar
     </h1>
   </q-page>
