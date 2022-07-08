@@ -83,10 +83,8 @@ const folderStructure = [
 <template>
   <div class="q-pa-md q-gutter-sm">
     <q-tree
-      default-expand-all
       :nodes="folderStructure"
       node-key="label"
-      no-connectors
     />
   </div>
 </template>
