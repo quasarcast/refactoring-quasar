@@ -24,14 +24,14 @@
         useVModel (Extracting)
       </q-item-section>
     </q-item>
-    <q-item to="folder-structure">
-      <q-item-section>
-        Folder Structure
-      </q-item-section>
-    </q-item>
     <q-item to="decouple-styling">
       <q-item-section>
         Decouple Component Styling
+      </q-item-section>
+    </q-item>
+    <q-item to="folder-structure">
+      <q-item-section>
+        Folder Structure
       </q-item-section>
     </q-item>
   </q-list>
