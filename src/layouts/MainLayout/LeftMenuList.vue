@@ -9,11 +9,6 @@
         Naming Components
       </q-item-section>
     </q-item>
-    <q-item to="use-v-model">
-      <q-item-section>
-        useVModel (Extracting)
-      </q-item-section>
-    </q-item>
     <q-item to="agnostic-from-requests">
       <q-item-section>
         Agnostic Components (Requests)
@@ -22,6 +17,11 @@
     <q-item to="agnostic-from-state">
       <q-item-section>
         Agnostic Components (Global State)
+      </q-item-section>
+    </q-item>
+    <q-item to="use-v-model">
+      <q-item-section>
+        useVModel (Extracting)
       </q-item-section>
     </q-item>
     <q-item to="folder-structure">
