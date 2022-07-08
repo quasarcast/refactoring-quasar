@@ -67,6 +67,8 @@ module.exports = {
     }],
     'func-call-spacing': 'off',
 
+    'no-unused-vars': 'off',
+
     'import/first': 'off',
     'import/named': 'error',
     'import/namespace': 'error',
