@@ -8,7 +8,6 @@ import UserComments from './UserComments.vue'
   <q-page padding>
     <UserComments
       style="max-width: 550px;"
-      bordered
       :comments="comments"
     />
   </q-page>
