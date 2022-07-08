@@ -11,10 +11,6 @@ async function fetchUsers () {
   users.value = response.data
 }
 
-async function createUser () {
-  alert("create em ya'self Luke!")
-}
-
 fetchUsers()
 </script>
 
@@ -30,7 +26,6 @@ fetchUsers()
         color="accent"
         round
         :icon="mdiPlus"
-        @click="createUser"
       />
     </template>
   </q-table>
