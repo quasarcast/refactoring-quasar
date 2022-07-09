@@ -1,3 +1,8 @@
+<!--
+  unexpected behaviour when used in
+  different parts of your app
+ -->
+
 <script setup>
 import ArticleCard from './ArticleCard.vue'
 import AdvertsCard from './AdvertsCard.vue'
